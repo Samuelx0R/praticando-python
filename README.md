@@ -38,10 +38,29 @@ praticando-python/
     │   ├── estrutura_repeticao.py     ← for e range()
     │   └── identacao_blocos.py        ← Identação e blocos de código
     │
+    ├── desafios/
+    │   ├── desafio_01_promocoes_loja.py          ← Condicionais: faixas de promoção
+    │   ├── desafio_02_validacao_transacao.py     ← Validação de transação bancária
+    │   ├── desafio_03_normalizacao_nomes.py      ← Normalização de nomes (strings)
+    │   ├── desafio_04_lista_produtos.py          ← Lista de produtos
+    │   ├── desafio_05_1_relatorio_vendas.py      ← Relatório de vendas
+    │   ├── desafio_05_2_relatorio_vendas.py      ← Relatório de vendas (variação)
+    │   ├── desafio_05_3_vendas_com_funcao.py     ← Vendas com função
+    │   └── desafio_05_4_vendas_mais_vendido.py   ← Funções e produto mais vendido
+    │
+    ├── dicionario/
+    │   └── dicionario.py              ← Pares chave-valor
+    │
+    ├── funcoes/
+    │   └── funcao.py                  ← def, parâmetros e retorno
+    │
     ├── input_output/
     │   ├── entrada_saida.py           ← input() e formatação do print()
     │   ├── conversao_tipos.py         ← int, float e str
     │   └── print.py                   ← Hello World
+    │
+    ├── listas/
+    │   └── listas.py                  ← Criação e métodos de listas
     │
     ├── operadores/
     │   ├── operadores_aritmeticos.py  ← + - * / // % ** e precedência
@@ -51,8 +70,12 @@ praticando-python/
     │   ├── operadores_associacao.py   ← in, not in
     │   └── operadores_identidade.py   ← is, is not
     │
-    └── outro/
-        └── variaveis_constantes.py    ← Variáveis, constantes e boas práticas
+    ├── outro/
+    │   └── variaveis_constantes.py    ← Variáveis, constantes e boas práticas
+    │
+    └── strings/
+        ├── interpolacao_variaveis.py  ← %, format() e f-strings
+        └── metodos_string.py          ← upper, strip, replace e outros
 ```
 
 ---
@@ -62,9 +85,14 @@ praticando-python/
 | Tópico | Arquivos | Destaques Técnicos |
 | :--- | :--- | :--- |
 | `condicionais_repeticao/` | 3 | `if/elif/else`, `if` ternário, `for`, `range`, identação |
+| `desafios/` | 8 | Desafios combinando condicionais, strings, listas, dicionários e funções |
+| `dicionario/` | 1 | Pares chave-valor |
+| `funcoes/` | 1 | `def`, parâmetros, retorno |
 | `input_output/` | 3 | `input`, `print` com `sep` e `end`, conversão de tipos |
+| `listas/` | 1 | Criação e métodos de listas |
 | `operadores/` | 6 | Aritméticos, atribuição, comparação, lógicos, associação, identidade |
 | `outro/` | 1 | Variáveis, constantes e *snake_case* |
+| `strings/` | 2 | Interpolação, métodos de string |
 
 ---
 
